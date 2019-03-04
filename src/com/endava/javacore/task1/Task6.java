@@ -1,3 +1,5 @@
+package com.endava.javacore.task1;
+
 public class Task6 {
 
     public static void divideBy3() {

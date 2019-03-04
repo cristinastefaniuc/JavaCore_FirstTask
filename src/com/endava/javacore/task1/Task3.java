@@ -1,3 +1,5 @@
+package com.endava.javacore.task1;
+
 public class Task3 {
 
     public static String reverseStr(String str) {

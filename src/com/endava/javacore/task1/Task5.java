@@ -1,3 +1,5 @@
+package com.endava.javacore.task1;
+
 public class Task5 {
 
     public static void count(String str) {

@@ -1,3 +1,5 @@
+package com.endava.javacore.task1;
+
 public class Task2 {
 
     public static int sumOfIntegers(int int1, int int2) {

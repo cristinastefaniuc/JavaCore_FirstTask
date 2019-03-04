@@ -1,3 +1,5 @@
+package com.endava.javacore.task1;
+
 public class Task1 {
 
     public static int sumUpDigits(int number) {
