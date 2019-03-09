@@ -2,6 +2,9 @@ package com.endava.javacore.task1;
 
 import java.util.Scanner;
 
+import static com.endava.javacore.task1.Gender.FEMALE;
+import static com.endava.javacore.task1.Gender.MALE;
+
 public class Main {
 
     public static void main(String []args) {
@@ -61,7 +64,7 @@ public class Main {
 
         ///////Task7
         System.out.println("\n\n---------Task7---------");
-        Object []arr = {"Today", new Person("Igor", 26, 'm'),  3234.0, "is", 23, 652, 'a', new Person("Ann", 23, 'f'), "big", "day"};
+        Object []arr = {"Today", new Person("Igor", 26, MALE),  3234.0, "is", 23, 652, 'a', new Person("Ann", 23, FEMALE), "big", "day"};
         Task7.method(arr);
     }
 }

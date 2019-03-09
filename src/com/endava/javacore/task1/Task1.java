@@ -3,10 +3,9 @@ package com.endava.javacore.task1;
 public class Task1 {
 
     public static int sumUpDigits(int number) {
-        int sum = 0, remainder = 0;
+        int sum = 0;
         while(number > 0) {
-            remainder = number % 10;
-            sum = sum + remainder;
+            sum = sum + number % 10;
             number = number / 10;
         }
 

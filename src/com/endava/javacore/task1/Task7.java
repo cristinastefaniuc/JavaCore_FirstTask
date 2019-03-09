@@ -6,18 +6,18 @@ import java.util.List;
 public class Task7 {
 
     public static void method(Object []arr) {
-        String concatenatedStr = "";
+        StringBuilder concatenatedStr = new StringBuilder();
         double sum = 0;
         List<Person> personsList = new ArrayList<>();
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] instanceof String || arr[i] instanceof Character) {
-                concatenatedStr = concatenatedStr + arr[i] + " ";
+                concatenatedStr.append(arr[i] + " ");
             } else if (arr[i] instanceof Integer) {
                 sum = sum + Double.valueOf((int)arr[i]);
             } else if (arr[i] instanceof Double) {
                 sum = sum + (double)arr[i];
-            } else {
+            } else if (arr[i] instanceof Person){
                 personsList.add((Person) arr[i]);
             }
         }
